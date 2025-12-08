@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بورتفوليو مونتير فيديو - محمد سيد</title>
+  <meta name="description" content="بورتفوليو مونتير فيديو لعرض نماذج الأعمال والتواصل عبر الواتساب مع محمد سيد." />
+
+  <!--
+    🔧 إعدادات سريعة للتعديل (لا تحتاج خبرة برمجية كبيرة)
+    1) لتغيير الاسم:
+       - ابحث داخل هذا الملف عن النص "محمد سيد" واستبدله باسمك.
+
+    2) لتغيير رقم الواتساب:
+       - ابحث عن: https://wa.me/201111687422
+       - وابحث أيضًا عن: +201111687422
+       - استبدلهما بالرابط والرقم الخاصين بك.
+
+    3) لتغيير حساب إنستجرام:
+       - ابحث عن: https://www.instagram.com/mohamedsayed5156
+       - استبدله بحسابك.
+
+    يمكنك فتح الملف ببرنامج بسيط مثل:
+    - Notepad على ويندوز
+    - TextEdit على ماك (مع تفعيل وضع النص العادي)
+    - أو VS Code (مستحسن وأسهل في البحث)
+  -->
+
+  <!-- وسوم لمساعدة مشاركة الموقع على الشبكات الاجتماعية -->
+  <meta property="og:title" content="بورتفوليو مونتير فيديو - محمد سيد" />
+  <meta property="og:description" content="شاهد أعمال المونتاج وتواصل عبر الواتساب مع محمد سيد." />
+  <meta property="og:type" content="website" />
+  <!-- عدّل رابط الموقع هنا بعد رفعه إن أحببت -->
+  <meta property="og:url" content="" />
+
+  <!-- Tailwind CSS v4 (Browser CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-neutral-950 text-neutral-100 min-h-screen font-sans">
+  <!-- خلفية متدرجة -->
+  <div class="fixed inset-0 -z-10 bg-gradient-to-br from-neutral-950 via-neutral-900 to-black"></div>
+  <div class="fixed -top-48 -left-40 h-72 w-72 bg-purple-700/20 blur-3xl rounded-full pointer-events-none"></div>
+  <div class="fixed bottom-0 right-0 h-72 w-72 bg-emerald-600/10 blur-3xl rounded-full pointer-events-none"></div>
+
+  <!-- شريط علوي -->
+  <header class="sticky top-0 z-30 border-b border-neutral-800/70 bg-black/70 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-lg bg-gradient-to-br from-purple-500 to-emerald-400 flex items-center justify-center text-xl font-black tracking-tight">
+          M
+        </div>
+        <div>
+          <!-- اسم المونتير - يمكنك تغييره إلى اسمك -->
+          <div class="text-sm font-semibold tracking-wide">محمد سيد</div>
+          <p class="text-xs text-neutral-400">مونتير فيديو | Video Editor</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-4 text-sm text-neutral-300">
+        <a href="#portfolio" class="hover:text-white transition-colors">الأعمال</a>
+        <a href="#services" class="hover:text-white transition-colors">الخدمات</a>
+        <a href="#about" class="hover:text-white transition-colors">عنّي</a>
+        <a href="#contact" class="hover:text-white transition-colors">تواصل</a>
+        <!-- زر لمشاركة رابط الموقع بالكامل -->
+        <button type="button" id="share-site-btn" class="inline-flex items-center gap-1 rounded-full border border-neutral-700/80 px-3 py-1 text-[11px] text-neutral-200 hover:border-emerald-400 hover:text-emerald-200 transition-colors">
+          <span>مشاركة الموقع</span>
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </nav>
+
+      <!-- زر واتساب رئيسي - غيّر الرابط فقط لو بدّلت رقمك -->
+      <a href="https://wa.me/201111687422" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-2 rounded-full bg-emerald-500 hover:bg-emerald-400 text-black text-sm font-semibold px-4 py-2 transition-colors">
+        <span>اطلب مونتاج الآن</span>
+        <span class="inline-block text-lg">▶</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-24 space-y-24">
+    <!-- قسم البطل -->
+    <section class="grid md:grid-cols-[1.4fr,1fr] gap-10 items-center">
+      <div class="space-y-6">
+        <p class="text-sm font-medium text-emerald-400 tracking-[0.25em] uppercase">Video Editing Portfolio</p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-black leading-tight">
+          <span class="block">مونتير فيديو يصنع</span>
+          <span class="block bg-gradient-to-l from-emerald-400 via-sky-400 to-purple-400 bg-clip-text text-transparent">قصصًا جذابة من كل لقطة</span>
+        </h1>
+        <p class="text-neutral-300 max-w-xl text-sm sm:text-base">
+          أساعد صُنّاع المحتوى، أصحاب المشاريع، والبراندات على تحويل اللقطات الخام إلى فيديوهات احترافية
+          جاهزة للنشر على يوتيوب، إنستجرام، تيك توك، والإعلانات الممولة.
+        </p>
+        <div class="flex flex-wrap gap-3 items-center">
+          <a href="#portfolio" class="inline-flex items-center justify-center gap-2 rounded-full bg-white text-black font-semibold text-sm px-6 py-2.5 hover:bg-neutral-100 transition-colors">
+            <span>شاهد الأعمال</span>
+            <span class="text-lg">🎬</span>
+          </a>
+          <!-- زر واتساب في قسم البطل -->
+          <a href="https://wa.me/201111687422" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-full border border-emerald-500/70 text-emerald-300 hover:bg-emerald-500/10 text-sm font-medium px-5 py-2.5 transition-colors">
+            <span>تواصل عبر الواتساب</span>
+            <svg class="w-4 h-4" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+              <path d="M16 3C9.373 3 4 8.373 4 15c0 2.275.623 4.395 1.71 6.233L4 29l7.01-1.84A11.9 11.9 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3m0 2.4c5.302 0 9.6 4.298 9.6 9.6 0 5.303-4.298 9.6-9.6 9.6-1.95 0-3.768-.588-5.326-1.7l-.38-.258-4.153 1.09 1.11-4.048-.248-.416A9.52 9.52 0 0 1 6.4 15c0-5.302 4.298-9.6 9.6-9.6m-3.017 4.5c-.184-.402-.378-.41-.554-.418-.144-.006-.308-.006-.473-.006s-.433.062-.66.309c-.227.247-.867.848-.867 2.069 0 1.22.888 2.4 1.012 2.566.124.165 1.713 2.738 4.204 3.727 2.079.82 2.5.657 2.95.617.45-.041 1.455-.595 1.66-1.169.206-.575.206-1.068.144-1.169-.062-.103-.227-.165-.473-.288-.247-.124-1.455-.718-1.68-.799-.227-.082-.392-.124-.554.124-.165.247-.637.799-.781.965-.144.165-.288.186-.535.062-.247-.124-1.044-.384-1.99-1.224-.736-.656-1.232-1.466-1.376-1.713-.144-.247-.016-.38.108-.504.111-.11.247-.288.371-.432.124-.144.165-.247.247-.412.082-.165.041-.309-.021-.432-.062-.124-.54-1.337-.76-1.829" />
+            </svg>
+          </a>
+        </div>
+        <div class="flex flex-wrap gap-6 pt-4 text-xs text-neutral-400">
+          <div>
+            <div class="text-neutral-200 font-semibold text-base">+150</div>
+            <div>فيديو منجَز</div>
+          </div>
+          <div>
+            <div class="text-neutral-200 font-semibold text-base">+30</div>
+            <div>براند وعميل</div>
+          </div>
+          <div>
+            <div class="text-neutral-200 font-semibold text-base">4+</div>
+            <div>سنوات خبرة</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="rounded-3xl border border-neutral-800 bg-gradient-to-br from-neutral-900/90 via-neutral-950/90 to-black/90 shadow-[0_0_60px_rgba(16,185,129,0.15)] p-4 sm:p-5 flex flex-col gap-4">
+          <div class="flex items-center justify-between gap-4">
+            <div>
+              <p class="text-xs text-neutral-400">آخر مشروع</p>
+              <p class="text-sm font-semibold text-neutral-50">إعلان سوشيال ميديا - براند قهوة</p>
+            </div>
+            <span class="inline-flex items-center rounded-full bg-emerald-500/10 text-emerald-300 text-[11px] px-2 py-1 border border-emerald-500/30">جاهز للاستلام ✔</span>
+          </div>
+          <div class="relative overflow-hidden rounded-2xl border border-neutral-800 bg-gradient-to-tr from-purple-500/40 via-neutral-900 to-emerald-500/30 aspect-video flex items-center justify-center">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_0,rgba(244,244,245,0.08),transparent_55%),radial-gradient(circle_at_80%_100%,rgba(45,212,191,0.12),transparent_55%)] mix-blend-screen"></div>
+            <button type="button" class="relative z-10 inline-flex items-center justify-center rounded-full bg-white/90 text-black w-16 h-16 shadow-lg shadow-emerald-500/40 border border-neutral-200/80">
+              <span class="ml-1 text-2xl">▶</span>
+            </button>
+          </div>
+          <div class="grid grid-cols-3 gap-3 text-[11px] text-neutral-300">
+            <div class="p-2.5 rounded-xl bg-neutral-900/70 border border-neutral-800">
+              <p class="text-neutral-400 mb-1">المنصّة</p>
+              <p class="font-medium">Reels &amp; TikTok</p>
+            </div>
+            <div class="p-2.5 rounded-xl bg-neutral-900/70 border border-neutral-800">
+              <p class="text-neutral-400 mb-1">النمط</p>
+              <p class="font-medium">سريع وحيوي</p>
+            </div>
+            <div class="p-2.5 rounded-xl bg-neutral-900/70 border border-neutral-800">
+              <p class="text-neutral-400 mb-1">المدّة</p>
+              <p class="font-medium">30 ثانية</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الأعمال -->
+    <section id="portfolio" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-1">نماذج من الأعمال</h2>
+          <p class="text-sm text-neutral-400 max-w-xl">
+            مجموعة مختارة من أعمال المونتاج: إعلانات، سوشيال ميديا، وفيديوهات يوتيوب مع إمكانية مشاركة كل عمل أو إرساله مباشرة للعميل.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <button type="button" data-filter="all" class="filter-btn rounded-full px-3.5 py-1.5 border border-neutral-700 bg-neutral-900 text-neutral-50">كل الأعمال</button>
+          <button type="button" data-filter="ads" class="filter-btn rounded-full px-3.5 py-1.5 border border-neutral-800 text-neutral-300 hover:border-neutral-600">إعلانات</button>
+          <button type="button" data-filter="social" class="filter-btn rounded-full px-3.5 py-1.5 border border-neutral-800 text-neutral-300 hover:border-neutral-600">سوشيال ميديا</button>
+          <button type="button" data-filter="youtube" class="filter-btn rounded-full px-3.5 py-1.5 border border-neutral-800 text-neutral-300 hover:border-neutral-600">يوتيوب</button>
+        </div>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- مشروع 1 -->
+        <article id="project-1" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="ads">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-gradient-to-tr from-amber-500/60 via-neutral-900 to-emerald-500/60 flex items-center justify-center">
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_0_0,rgba(250,250,249,0.2),transparent_55%),radial-gradient(circle_at_100%_100%,rgba(22,163,74,0.35),transparent_55%)] mix-blend-screen opacity-80 group-hover:opacity-100 transition-opacity"></div>
+              <div class="relative z-10 flex flex-col items-center gap-2">
+                <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-black/80 border border-white/15 text-xl">▶</span>
+                <span class="text-[11px] font-medium tracking-[0.25em] uppercase text-white/80">Ad Edit</span>
+              </div>
+            </div>
+            <span class="absolute top-3 right-3 rounded-full bg-black/70 text-[10px] px-2 py-1 border border-white/10 text-neutral-100">إعلان ممول</span>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <h3 class="text-sm font-semibold text-neutral-50">إعلان كافيه - عرض افتتاح</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">
+              منتج بنمط ديناميكي سريع، مناسب للإعلانات الممولة على إنستجرام وفيسبوك، مع مونتاج موسيقى وإضافات نصوص متحركة.
+            </p>
+            <dl class="grid grid-cols-2 gap-2 text-[11px] text-neutral-400">
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                <span>30 ثانية</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                <span>Reels / Ads</span>
+              </div>
+            </dl>
+            <div class="flex items-center justify-between pt-1 mt-auto">
+              <!-- رابط إنستجرام - استبدله برابط العمل أو حسابك -->
+              <a href="https://www.instagram.com/mohamedsayed5156" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-emerald-300 hover:text-emerald-200">
+                <span>عرض الفيديو على إنستجرام</span>
+              </a>
+              <button type="button" data-share-button data-id="project-1" data-title="إعلان كافيه - عرض افتتاح" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 2 -->
+        <article id="project-2" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="social">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-gradient-to-tr from-sky-500/60 via-neutral-900 to-fuchsia-500/60 flex items-center justify-center">
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_0_100%,rgba(248,250,252,0.2),transparent_55%),radial-gradient(circle_at_100%_0,rgba(168,85,247,0.4),transparent_55%)] mix-blend-screen opacity-80 group-hover:opacity-100 transition-opacity"></div>
+              <div class="relative z-10 flex flex-col items-center gap-2">
+                <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-black/80 border border-white/15 text-xl">▶</span>
+                <span class="text-[11px] font-medium tracking-[0.25em] uppercase text-white/80">Short Form</span>
+              </div>
+            </div>
+            <span class="absolute top-3 right-3 rounded-full bg-black/70 text-[10px] px-2 py-1 border border-white/10 text-neutral-100">سوشيال ميديا</span>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <h3 class="text-sm font-semibold text-neutral-50">ريلز - محتوى تعليمي سريع</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">
+              مونتاج محتوى تعليمي بصيغة ريلز مع إضافة ترجمة (Subtitles)، رسومات توضيحية، وتحسين للألوان والصوت.
+            </p>
+            <dl class="grid grid-cols-2 gap-2 text-[11px] text-neutral-400">
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                <span>60 ثانية</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                <span>Reels / TikTok</span>
+              </div>
+            </dl>
+            <div class="flex items-center justify-between pt-1 mt-auto">
+              <a href="https://www.instagram.com/mohamedsayed5156" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-emerald-300 hover:text-emerald-200">
+                <span>عرض الفيديو على إنستجرام</span>
+              </a>
+              <button type="button" data-share-button data-id="project-2" data-title="ريلز - محتوى تعليمي سريع" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 3 -->
+        <article id="project-3" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="youtube">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-gradient-to-tr from-red-500/60 via-neutral-900 to-slate-500/70 flex items-center justify-center">
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_0_0,rgba(254,226,226,0.25),transparent_55%),radial-gradient(circle_at_100%_100%,rgba(15,23,42,0.9),transparent_55%)] mix-blend-screen opacity-80 group-hover:opacity-100 transition-opacity"></div>
+              <div class="relative z-10 flex flex-col items-center gap-2">
+                <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-black/80 border border-white/15 text-xl">▶</span>
+                <span class="text-[11px] font-medium tracking-[0.25em] uppercase text-white/80">YouTube Edit</span>
+              </div>
+            </div>
+            <span class="absolute top-3 right-3 rounded-full bg-black/70 text-[10px] px-2 py-1 border border-white/10 text-neutral-100">يوتيوب</span>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <h3 class="text-sm font-semibold text-neutral-50">فيديو يوتيوب - Vlog يوم كامل</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">
+              مونتاج فلوق كامل مع تنظيم القصة، تصحيح الألوان، إضافة موسيقى خفيفة، وإنفوجرافيك بسيط للتفاعل مع المتابعين.
+            </p>
+            <dl class="grid grid-cols-2 gap-2 text-[11px] text-neutral-400">
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-red-400"></span>
+                <span>10 دقائق</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-red-400"></span>
+                <span>YouTube</span>
+              </div>
+            </dl>
+            <div class="flex items-center justify-between pt-1 mt-auto">
+              <a href="https://www.instagram.com/mohamedsayed5156" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-emerald-300 hover:text-emerald-200">
+                <span>عرض الفيديو على إنستجرام</span>
+              </a>
+              <button type="button" data-share-button data-id="project-3" data-title="فيديو يوتيوب - Vlog يوم كامل" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 4 -->
+        <article id="project-4" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="social">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-gradient-to-tr from-emerald-500/60 via-neutral-900 to-sky-500/70 flex items-center justify-center">
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_0,rgba(74,222,128,0.35),transparent_55%),radial-gradient(circle_at_80%_100%,rgba(59,130,246,0.4),transparent_55%)] mix-blend-screen opacity-80 group-hover:opacity-100 transition-opacity"></div>
+              <div class="relative z-10 flex flex-col items-center gap-2">
+                <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-black/80 border border-white/15 text-xl">▶</span>
+                <span class="text-[11px] font-medium tracking-[0.25em] uppercase text-white/80">Brand Content</span>
+              </div>
+            </div>
+            <span class="absolute top-3 right-3 rounded-full bg-black/70 text-[10px] px-2 py-1 border border-white/10 text-neutral-100">براند</span>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <h3 class="text-sm font-semibold text-neutral-50">سلسلة فيديوهات براند منتجات عناية</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">
+              سلسلة من الفيديوهات القصيرة بتصميم موحد للبراند، مناسبة للانستجرام والسناب شات مع هوية بصرية واضحة.
+            </p>
+            <dl class="grid grid-cols-2 gap-2 text-[11px] text-neutral-400">
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                <span>3 فيديوهات</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                <span>Brand Social</span>
+              </div>
+            </dl>
+            <div class="flex items-center justify-between pt-1 mt-auto">
+              <a href="https://www.instagram.com/mohamedsayed5156" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-emerald-300 hover:text-emerald-200">
+                <span>عرض الفيديو على إنستجرام</span>
+              </a>
+              <button type="button" data-share-button data-id="project-4" data-title="سلسلة فيديوهات براند منتجات عناية" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 5 -->
+        <article id="project-5" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="ads">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-gradient-to-tr from-indigo-500/60 via-neutral-900 to-orange-500/70 flex items-center justify-center">
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_0_0,rgba(221,214,254,0.35),transparent_55%),radial-gradient(circle_at_100%_100%,rgba(251,146,60,0.4),transparent_55%)] mix-blend-screen opacity-80 group-hover:opacity-100 transition-opacity"></div>
+              <div class="relative z-10 flex flex-col items-center gap-2">
+                <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-black/80 border border-white/15 text-xl">▶</span>
+                <span class="text-[11px] font-medium tracking-[0.25em] uppercase text-white/80">Performance Ad</span>
+              </div>
+            </div>
+            <span class="absolute top-3 right-3 rounded-full bg-black/70 text-[10px] px-2 py-1 border border-white/10 text-neutral-100">حملة إعلانية</span>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <h3 class="text-sm font-semibold text-neutral-50">إعلان متجر إلكتروني - خصم موسمي</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">
+              إعلان مخصص للحملات الممولة مع CTA واضح، نصوص سريعة، ومونتاج متوافق مع معايير منصات الإعلانات.
+            </p>
+            <dl class="grid grid-cols-2 gap-2 text-[11px] text-neutral-400">
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
+                <span>25 ثانية</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
+                <span>Meta / TikTok Ads</span>
+              </div>
+            </dl>
+            <div class="flex items-center justify-between pt-1 mt-auto">
+              <a href="https://www.instagram.com/mohamedsayed5156" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-emerald-300 hover:text-emerald-200">
+                <span>عرض الفيديو على إنستجرام</span>
+              </a>
+              <button type="button" data-share-button data-id="project-5" data-title="إعلان متجر إلكتروني - خصم موسمي" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 6 -->
+        <article id="project-6" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="youtube">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-gradient-to-tr from-slate-400/60 via-neutral-900 to-red-600/70 flex items-center justify-center">
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_100%_0,rgba(148,163,184,0.5),transparent_55%),radial-gradient(circle_at_0_100%,rgba(248,113,113,0.4),transparent_55%)] mix-blend-screen opacity-80 group-hover:opacity-100 transition-opacity"></div>
+              <div class="relative z-10 flex flex-col items-center gap-2">
+                <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-black/80 border border-white/15 text-xl">▶</span>
+                <span class="text-[11px] font-medium tracking-[0.25em] uppercase text-white/80">Talking Head</span>
+              </div>
+            </div>
+            <span class="absolute top-3 right-3 rounded-full bg-black/70 text-[10px] px-2 py-1 border border-white/10 text-neutral-100">بودكاست / برنامج</span>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <h3 class="text-sm font-semibold text-neutral-50">حلقة برنامج حواري - بودكاست مرئي</h3>
+            <p class="text-xs text-neutral-400 leading-relaxed">
+              مونتاج كامل لحلقة حوارية مع عدة كاميرات، مزامنة صوت، وتصميم انترو/اوترو وLower Thirds احترافية.
+            </p>
+            <dl class="grid grid-cols-2 gap-2 text-[11px] text-neutral-400">
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-slate-300"></span>
+                <span>45 دقيقة</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-slate-300"></span>
+                <span>YouTube / Podcast</span>
+              </div>
+            </dl>
+            <div class="flex items-center justify-between pt-1 mt-auto">
+              <a href="https://www.instagram.com/mohamedsayed5156" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs text-emerald-300 hover:text-emerald-200">
+                <span>عرض الفيديو على إنستجرام</span>
+              </a>
+              <button type="button" data-share-button data-id="project-6" data-title="حلقة برنامج حواري - بودكاست مرئي" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section id="services" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-1">الخدمات التي أقدّمها</h2>
+          <p class="text-sm text-neutral-400 max-w-xl">
+            حلول مونتاج متكاملة تناسب أنواع المحتوى المختلفة، من فيديوهات قصيرة سريعة إلى حلقات يوتيوب وبرامج كاملة.
+          </p>
+        </div>
+      </div>
+      <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 text-sm">
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/70 p-4 flex flex-col gap-2">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="font-semibold text-neutral-50">مونتاج سوشيال ميديا</h3>
+            <span class="text-[11px] text-emerald-300 bg-emerald-500/10 border border-emerald-500/30 rounded-full px-2 py-0.5">الأكثر طلبًا</span>
+          </div>
+          <p class="text-xs text-neutral-400 mb-2">ريلز، تيك توك، شورتس، محتوى تعليمي أو ترفيهي سريع.</p>
+          <ul class="text-xs text-neutral-300 space-y-1.5 list-disc pr-4">
+            <li>قص وتقطيع ذكي حسب الإيقاع</li>
+            <li>إضافة ترجمة (Subtitles) متحركة</li>
+            <li>إضافة مؤثرات صوتية وTransitions</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/70 p-4 flex flex-col gap-2">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="font-semibold text-neutral-50">مونتاج يوتيوب وبرامج</h3>
+          </div>
+          <p class="text-xs text-neutral-400 mb-2">فيديوهات يوتيوب، Vlogs، حلقات بودكاست وبرامج حوارية.</p>
+          <ul class="text-xs text-neutral-300 space-y-1.5 list-disc pr-4">
+            <li>تنظيم القصة وتوزيع الفقرات</li>
+            <li>تصحيح ألوان أساسي وتحسين الصوت</li>
+            <li>تصميم انترو/اوترو وLower Thirds</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/70 p-4 flex flex-col gap-2">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="font-semibold text-neutral-50">إعلانات ممولة للبراندات</h3>
+          </div>
+          <p class="text-xs text-neutral-400 mb-2">إعداد فيديوهات مخصصة للحملات الإعلانية على السوشيال ميديا.</p>
+          <ul class="text-xs text-neutral-300 space-y-1.5 list-disc pr-4">
+            <li>CTA واضح ومناسب لهدف الحملة</li>
+            <li>تجهيز نسخ تناسب مقاسات المنصات المختلفة</li>
+            <li>نسخ A/B للاختبار والتحسين</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم عنّي -->
+    <section id="about" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-1">عنّي</h2>
+          <p class="text-sm text-neutral-400 max-w-xl">
+            مونتير فيديو مستقل أعمل مع صُنّاع محتوى، براندات، وشركات ناشئة لصناعة فيديوهات واضحة، مشوّقة، ومناسبة للمنصّة المستهدفة.
+          </p>
+        </div>
+      </div>
+      <div class="grid gap-6 md:grid-cols-[1.4fr,1fr] items-start text-sm">
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-4 space-y-3">
+          <p class="text-neutral-200 text-sm leading-relaxed">
+            أركّز في شغلي على شيئين أساسيين:
+          </p>
+          <ul class="list-decimal pr-5 text-neutral-300 text-sm space-y-2">
+            <li><span class="font-semibold text-neutral-50">قصة واضحة:</span> مهما كان نوع الفيديو، المهم إن الرسالة توصل للمشاهد بأبسط شكل وأقوى تأثير.</li>
+            <li><span class="font-semibold text-neutral-50">سرعة مع جودة:</span> أعرف إن وقتك مهم، عشان كذا أقدّم تسليم سريع بدون ما أضحّي بجودة المونتاج.</li>
+          </ul>
+          <p class="text-neutral-300 text-sm">
+            أستخدم برامج احترافية مثل Adobe Premiere Pro وAfter Effects مع إضافة موسيقى مرخَّصة ومؤثرات بصرية بسيطة عند الحاجة.
+          </p>
+        </div>
+        <div class="grid gap-3 text-xs">
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-3.5 flex items-center justify-between">
+            <div>
+              <p class="text-neutral-300 mb-0.5">مدة التسليم المعتادة</p>
+              <p class="text-[11px] text-neutral-400">حسب طول الفيديو ونوعه</p>
+            </div>
+            <p class="text-base font-semibold text-emerald-300">من 24 إلى 72 ساعة</p>
+          </div>
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-3.5 flex flex-col gap-1.5">
+            <p class="text-neutral-300">أعمل مع:</p>
+            <div class="flex flex-wrap gap-2 text-[11px] text-neutral-200">
+              <span class="px-2 py-1 rounded-full bg-neutral-900 border border-neutral-700/70">صُنّاع محتوى</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-900 border border-neutral-700/70">براندات ومنتجات</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-900 border border-neutral-700/70">متاجر إلكترونية</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-900 border border-neutral-700/70">بودكاست وبرامج</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-1">تواصل وحجز</h2>
+          <p class="text-sm text-neutral-400 max-w-xl">
+            أرسل تفاصيل الفيديو الذي تحتاجه على الواتساب أو اكتب لي رسالة سريعة، وسأعود إليك بأقرب وقت مع تفاصيل السعر ومدة التسليم.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-[1.2fr,1fr] items-start">
+        <!-- نموذج بسيط (استعراض فقط، بدون باك إند) -->
+        <form id="contact-form" class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-4 space-y-3 text-sm">
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label for="name" class="block text-xs text-neutral-300 mb-1">الاسم</label>
+              <input id="name" name="name" type="text" class="w-full rounded-xl bg-neutral-900 border border-neutral-700/80 px-3 py-2 text-xs outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/70" placeholder="مثال: أحمد محمد" />
+            </div>
+            <div>
+              <label for="platform" class="block text-xs text-neutral-300 mb-1">المنصّة المستهدفة</label>
+              <select id="platform" name="platform" class="w-full rounded-xl bg-neutral-900 border border-neutral-700/80 px-3 py-2 text-xs outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/70">
+                <option value="">اختر المنصّة</option>
+                <option value="reels">Reels / TikTok / Shorts</option>
+                <option value="youtube">YouTube</option>
+                <option value="ads">إعلانات ممولة</option>
+                <option value="other">أخرى</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="details" class="block text-xs text-neutral-300 mb-1">تفاصيل العمل المطلوب</label>
+            <textarea id="details" name="details" rows="4" class="w-full rounded-xl bg-neutral-900 border border-neutral-700/80 px-3 py-2 text-xs outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/70" placeholder="اكتب نوع الفيديو، المدة التقريبية، وأي ملاحظات مهمة..."></textarea>
+          </div>
+          <p class="text-[11px] text-neutral-400">
+            عند الإرسال سيتم تجهيز رسالة جاهزة لتكمل الكلام عبر الواتساب مباشرة.
+          </p>
+          <button type="submit" class="inline-flex items-center gap-2 rounded-full bg-emerald-500 hover:bg-emerald-400 text-black text-xs font-semibold px-5 py-2 transition-colors">
+            <span>إرسال التفاصيل على الواتساب</span>
+            <svg class="w-3.5 h-3.5" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+              <path d="M16 3C9.373 3 4 8.373 4 15c0 2.275.623 4.395 1.71 6.233L4 29l7.01-1.84A11.9 11.9 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3m0 2.4c5.302 0 9.6 4.298 9.6 9.6 0 5.303-4.298 9.6-9.6 9.6-1.95 0-3.768-.588-5.326-1.7l-.38-.258-4.153 1.09 1.11-4.048-.248-.416A9.52 9.52 0 0 1 6.4 15c0-5.302 4.298-9.6 9.6-9.6m-3.017 4.5c-.184-.402-.378-.41-.554-.418-.144-.006-.308-.006-.473-.006s-.433.062-.66.309c-.227.247-.867.848-.867 2.069 0 1.22.888 2.4 1.012 2.566.124.165 1.713 2.738 4.204 3.727 2.079.82 2.5.657 2.95.617.45-.041 1.455-.595 1.66-1.169.206-.575.206-1.068.144-1.169-.062-.103-.227-.165-.473-.288-.247-.124-1.455-.718-1.68-.799-.227-.082-.392-.124-.554.124-.165.247-.637.799-.781.965-.144.165-.288.186-.535.062-.247-.124-1.044-.384-1.99-1.224-.736-.656-1.232-1.466-1.376-1.713-.144-.247-.016-.38.108-.504.111-.11.247-.288.371-.432.124-.144.165-.247.247-.412.082-.165.041-.309-.021-.432-.062-.124-.54-1.337-.76-1.829" />
+            </svg>
+          </button>
+        </form>
+
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-4 space-y-3 text-sm">
+          <p class="text-neutral-200 text-sm mb-1">معلومات سريعة:</p>
+          <ul class="text-xs text-neutral-300 space-y-2">
+            <li>• التواصل الأسرع يكون عبر الواتساب.</li>
+            <li>• يمكن إرسال عينات من اللقطات قبل الاتفاق النهائي.</li>
+            <li>• إمكانية التعديل على الفيديو بعد التسليم (حسب الباقة المتفق عليها).</li>
+          </ul>
+          <div class="pt-2 text-xs text-neutral-400">
+            <p>رقم الواتساب الحالي (يمكنك تغييره في الكود):</p>
+            <p class="mt-1 text-neutral-100 font-mono text-[11px]">+201111687422</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم إرشادات لصاحب الموقع فقط (اختياري) -->
+    <section id="owner-guide" class="space-y-4 border border-dashed border-neutral-800/80 rounded-2xl bg-neutral-950/80 px-4 py-4 text-xs text-neutral-300">
+      <details>
+        <summary class="cursor-pointer font-semibold text-neutral-100 mb-1">طريقة تعديل الموقع بسهولة (مخصّص لصاحب الموقع)</summary>
+        <ol class="list-decimal pr-4 space-y-1.5 mt-2">
+          <li>افتح ملف <span class="font-mono text-[11px]">index.html</span> بواسطة أي محرر نصوص مثل Notepad أو VS Code.</li>
+          <li>لتغيير الاسم، ابحث عن النص <span class="font-mono text-[11px]">"محمد سيد"</span> واستبدله باسمك.</li>
+          <li>لتغيير رقم الواتساب، ابحث عن <span class="font-mono text-[11px]">https://wa.me/201111687422</span> و <span class="font-mono text-[11px]">+201111687422</span> واستبدلها برابط ورقمك.</li>
+          <li>لتغيير حساب الانستجرام، ابحث عن <span class="font-mono text-[11px]">https://www.instagram.com/mohamedsayed5156</span> واستبدله بحسابك.</li>
+          <li>بعد التعديل احفظ الملف ثم افتحه في المتصفح لتتأكد أن كل شيء يعمل كما تريد.</li>
+        </ol>
+      </details>
+      <details>
+        <summary class="cursor-pointer font-semibold text-neutral-100 mb-1">كيفية رفع الموقع على الإنترنت (استضافة مجانية بسيطة)</summary>
+        <ol class="list-decimal pr-4 space-y-1.5 mt-2">
+          <li>ادخل على موقع <span class="font-mono text-[11px]">https://netlify.com</span> أو <span class="font-mono text-[11px]">https://vercel.com</span>.</li>
+          <li>أنشئ حسابًا جديدًا باستخدام بريدك الإلكتروني أو حساب جوجل.</li>
+          <li>بعد تسجيل الدخول، ستجد خيار رفع موقع جديد (New Site / New Project).</li>
+          <li>اسحب ملف <span class="font-mono text-[11px]">index.html</span> وأسقطه في المنطقة المخصصة (Drag &amp; Drop).</li>
+          <li>بعد ثوانٍ سيظهر لك رابط مثل: <span class="font-mono text-[11px]">https://yourname.netlify.app</span>.</li>
+          <li>انسخ هذا الرابط، ثم استخدم زر «مشاركة الموقع» في أعلى الصفحة لإرساله لأي شخص عبر واتساب أو غيره.</li>
+        </ol>
+      </details>
+    </section>
+  </main>
+
+  <!-- أيقونة واتساب عائمة - غيّر الرابط لو بدّلت رقمك -->
+  <a href="https://wa.me/201111687422" target="_blank" rel="noopener" class="fixed bottom-4 right-4 z-40">
+    <div class="relative group">
+      <span class="absolute -top-9 right-0 rounded-full bg-black/85 text-[10px] px-2 py-1 text-neutral-100 border border-neutral-700/80 opacity-0 group-hover:opacity-100 transition-opacity">تواصل سريع</span>
+      <div class="w-12 h-12 rounded-full bg-emerald-500 shadow-lg shadow-emerald-500/40 flex items-center justify-center text-white hover:bg-emerald-400 transition-colors border border-emerald-300/80">
+        <svg class="w-6 h-6" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+          <path d="M16 3C9.373 3 4 8.373 4 15c0 2.275.623 4.395 1.71 6.233L4 29l7.01-1.84A11.9 11.9 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3m0 2.4c5.302 0 9.6 4.298 9.6 9.6 0 5.303-4.298 9.6-9.6 9.6-1.95 0-3.768-.588-5.326-1.7l-.38-.258-4.153 1.09 1.11-4.048-.248-.416A9.52 9.52 0 0 1 6.4 15c0-5.302 4.298-9.6 9.6-9.6m-3.017 4.5c-.184-.402-.378-.41-.554-.418-.144-.006-.308-.006-.473-.006s-.433.062-.66.309c-.227.247-.867.848-.867 2.069 0 1.22.888 2.4 1.012 2.566.124.165 1.713 2.738 4.204 3.727 2.079.82 2.5.657 2.95.617.45-.041 1.455-.595 1.66-1.169.206-.575.206-1.068.144-1.169-.062-.103-.227-.165-.473-.288-.247-.124-1.455-.718-1.68-.799-.227-.082-.392-.124-.554.124-.165.247-.637.799-.781.965-.144.165-.288.186-.535.062-.247-.124-1.044-.384-1.99-1.224-.736-.656-1.232-1.466-1.376-1.713-.144-.247-.016-.38.108-.504.111-.11.247-.288.371-.432.124-.144.165-.247.247-.412.082-.165.041-.309-.021-.432-.062-.124-.54-1.337-.76-1.829" />
+        </svg>
+      </div>
+    </div>
+  </a>
+
+  <!-- Toast / تنبيه صغير -->
+  <div id="toast" class="fixed bottom-6 left-4 z-40 hidden">
+    <div class="flex items-center gap-2 rounded-full bg-black/85 border border-neutral-700 px-3 py-1.5 text-[11px] text-neutral-100 shadow-lg">
+      <span id="toast-icon" class="text-emerald-400">✔</span>
+      <span id="toast-message">تم نسخ رابط العمل</span>
+    </div>
+  </div>
+
+  <!-- تذييل -->
+  <footer class="border-t border-neutral-800/80 bg-black/70 backdrop-blur-sm text-[11px] text-neutral-500">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row gap-2 items-center justify-between">
+      <p>© <span id="year"></span> جميع الحقوق محفوظة. مونتير فيديو مستقل.</p>
+      <p>يمكن تعديل الاسم، الرقم، وروابط الأعمال بسهولة من داخل الملف.</p>
+    </div>
+  </footer>
+
+  <script>
+    // إعداد السنة الحالية في التذييل
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // زر مشاركة العمل
+    const shareButtons = document.querySelectorAll('[data-share-button]');
+    const toast = document.getElementById('toast');
+    const toastMessage = document.getElementById('toast-message');
+    const toastIcon = document.getElementById('toast-icon');
+
+    function showToast(message, type = 'success') {
+      toastMessage.textContent = message;
+      if (type === 'success') {
+        toastIcon.textContent = '✔';
+        toastIcon.className = 'text-emerald-400';
+      } else {
+        toastIcon.textContent = '!';
+        toastIcon.className = 'text-amber-400';
+      }
+      toast.classList.remove('hidden');
+      clearTimeout(window.__toastTimeout);
+      window.__toastTimeout = setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 2600);
+    }
+
+    function getProjectShareUrl(id) {
+      const url = new URL(window.location.href);
+      url.hash = id;
+      return url.toString();
+    }
+
+    async function copyToClipboard(text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        return true;
+      } catch (e) {
+        return false;
+      } finally {
+        document.body.removeChild(textarea);
+      }
+    }
+
+    shareButtons.forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const id = btn.getAttribute('data-id');
+        const title = btn.getAttribute('data-title') || 'عمل مونتاج فيديو';
+        const url = getProjectShareUrl(id);
+
+        const text = `شاهد هذا العمل: ${title}`;
+
+        if (navigator.share) {
+          try {
+            await navigator.share({ title, text, url });
+          } catch (err) {
+            // المستخدم ربما أغلق المشاركة، لا حاجة لرسالة خطأ
+          }
+        } else {
+          const ok = await copyToClipboard(url);
+          if (ok) {
+            showToast('تم نسخ رابط العمل، يمكنك الآن لصقه وإرساله.', 'success');
+          } else {
+            showToast('لم يتمكن المتصفح من نسخ الرابط تلقائيًا. جرّب نسخ الرابط من شريط العنوان.', 'error');
+          }
+        }
+      });
+    });
+
+    // زر مشاركة الموقع كاملًا
+    const shareSiteBtn = document.getElementById('share-site-btn');
+
+    if (shareSiteBtn) {
+      shareSiteBtn.addEventListener('click', async () => {
+        const url = window.location.href;
+        const title = 'بورتفوليو مونتير فيديو - محمد سيد';
+        const text = 'شاهد بورتفوليو المونتاج الخاص بي وتواصل معي عبر الواتساب.';
+
+        if (navigator.share) {
+          try {
+            await navigator.share({ title, text, url });
+          } catch (err) {
+            // المستخدم ربما أغلق نافذة المشاركة
+          }
+        } else {
+          const ok = await copyToClipboard(url);
+          if (ok) {
+            showToast('تم نسخ رابط الموقع، يمكنك الآن لصقه ومشاركته.', 'success');
+          } else {
+            showToast('لم يتمكن المتصفح من نسخ الرابط تلقائيًا. انسخ الرابط من شريط العنوان.', 'error');
+          }
+        }
+      });
+    }
+
+    // فلترة الأعمال حسب النوع
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        // تحديث مظهر الأزرار
+        filterButtons.forEach((btn) => {
+          btn.classList.remove('bg-neutral-900', 'text-neutral-50', 'border-neutral-700');
+          btn.classList.add('border-neutral-800', 'text-neutral-300');
+        });
+        button.classList.remove('border-neutral-800', 'text-neutral-300');
+        button.classList.add('bg-neutral-900', 'text-neutral-50', 'border-neutral-700');
+
+        // إظهار/إخفاء البطاقات
+        projectCards.forEach((card) => {
+          const category = card.getAttribute('data-category');
+          const shouldShow = filter === 'all' || filter === category;
+          card.classList.toggle('hidden', !shouldShow);
+        });
+      });
+    });
+
+    // إرسال نموذج التواصل وتحويله لرسالة واتساب
+    const contactForm = document.getElementById('contact-form');
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const name = contactForm.name.value.trim();
+        const platform = contactForm.platform.value;
+        const details = contactForm.details.value.trim();
+
+        const platformLabelMap = {
+          reels: 'Reels / TikTok / Shorts',
+          youtube: 'YouTube',
+          ads: 'إعلانات ممولة',
+          other: 'منصات أخرى',
+        };
+
+        const platformLabel = platform ? platformLabelMap[platform] || platform : 'لم يتم التحديد';
+
+        let message = 'مرحبًا، أريد طلب خدمة مونتاج فيديو.';
+        if (name) {
+          message += `\n\nالاسم: ${name}`;
+        }
+        message += `\nالمنصّة المستهدفة: ${platformLabel}`;
+        if (details) {
+          message += `\n\nتفاصيل الفيديو:\n${details}`;
+        }
+
+        const encoded = encodeURIComponent(message);
+        const whatsappNumber = '201111687422'; // عدّل الرقم هنا إن أحببت
+        const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encoded}`;
+        window.open(whatsappUrl, '_blank');
+      });
+    }
+  </script>
+</body>
+</html>
