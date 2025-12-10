@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بورتفوليو مونتير فيديو - محمد سيد</title>
+  <meta name="description" content="بورتفوليو مونتير فيديو لعرض نماذج الأعمال والتواصل عبر الواتساب مع محمد سيد." />
+
+  <!--
+    🔧 إعدادات سريعة للتعديل (لا تحتاج خبرة برمجية كبيرة)
+    1) لتغيير الاسم:
+       - ابحث داخل هذا الملف عن النص "محمد سيد" واستبدله باسمك.
+
+    2) لتغيير رقم الواتساب:
+       - ابحث عن: https://wa.me/201111687422
+       - وابحث أيضًا عن: +201111687422
+       - استبدلهما بالرابط والرقم الخاصين بك.
+
+    3) لتغيير حساب إنستجرام:
+       - ابحث عن: https://www.instagram.com/mohamedsayed5156
+       - استبدله بحسابك.
+
+    يمكنك فتح الملف ببرنامج بسيط مثل:
+    - Notepad على ويندوز
+    - TextEdit على ماك (مع تفعيل وضع النص العادي)
+    - أو VS Code (مستحسن وأسهل في البحث)
+  -->
+
+  <!-- وسوم لمساعدة مشاركة الموقع على الشبكات الاجتماعية -->
+  <meta property="og:title" content="بورتفوليو مونتير فيديو - محمد سيد" />
+  <meta property="og:description" content="شاهد أعمال المونتاج وتواصل عبر الواتساب مع محمد سيد." />
+  <meta property="og:type" content="website" />
+  <!-- عدّل رابط الموقع هنا بعد رفعه إن أحببت -->
+  <meta property="og:url" content="" />
+
+  <!-- Tailwind CSS v4 (Browser CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-neutral-950 text-neutral-100 min-h-screen font-sans">
+  <!-- خلفية متدرجة -->
+  <div class="fixed inset-0 -z-10 bg-gradient-to-br from-neutral-950 via-neutral-900 to-black"></div>
+  <div class="fixed -top-48 -left-40 h-72 w-72 bg-purple-700/20 blur-3xl rounded-full pointer-events-none"></div>
+  <div class="fixed bottom-0 right-0 h-72 w-72 bg-emerald-600/10 blur-3xl rounded-full pointer-events-none"></div>
+
+  <!-- شريط علوي -->
+  <header class="sticky top-0 z-30 border-b border-neutral-800/70 bg-black/70 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-lg bg-gradient-to-br from-purple-500 to-emerald-400 flex items-center justify-center text-xl font-black tracking-tight">
+          M
+        </div>
+        <div>
+          <!-- اسم المونتير - يمكنك تغييره إلى اسمك -->
+          <div class="text-sm font-semibold tracking-wide">محمد سيد</div>
+          <p class="text-xs text-neutral-400">مصمم جرافيك ومحرر فيديو</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-4 text-sm text-neutral-300">
+        <a href="#portfolio" class="hover:text-white transition-colors">الأعمال</a>
+        <a href="#services" class="hover:text-white transition-colors">الخدمات</a>
+        <a href="#about" class="hover:text-white transition-colors">عنّي</a>
+        <a href="#contact" class="hover:text-white transition-colors">تواصل</a>
+        <!-- زر لمشاركة رابط الموقع بالكامل -->
+        <button type="button" id="share-site-btn" class="inline-flex items-center gap-1 rounded-full border border-neutral-700/80 px-3 py-1 text-[11px] text-neutral-200 hover:border-emerald-400 hover:text-emerald-200 transition-colors">
+          <span>مشاركة الموقع</span>
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </nav>
+
+      <!-- زر واتساب رئيسي - غيّر الرابط فقط لو بدّلت رقمك -->
+      <a href="https://wa.me/201111687422" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-2 rounded-full bg-emerald-500 hover:bg-emerald-400 text-black text-sm font-semibold px-4 py-2 transition-colors">
+        <span>اطلب مونتاج الآن</span>
+        <span class="inline-block text-lg">▶</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-24 space-y-24">
+    <!-- قسم البطل -->
+    <section class="grid md:grid-cols-[1.4fr,1fr] gap-10 items-center">
+      <div class="space-y-6">
+        <p class="text-xl sm:text-2xl font-bold text-emerald-400">Portfolio</p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-black leading-tight">
+          <span class="block">نصنع لك صورة</span>
+          <span class="block bg-gradient-to-l from-emerald-400 via-sky-400 to-purple-400 bg-clip-text text-transparent">تليق بك أمام جمهورك</span>
+        </h1>
+        <p class="text-neutral-300 max-w-xl text-sm sm:text-base">
+          أساعد صُنّاع المحتوى، أصحاب المشاريع، والبراندات على تحويل اللقطات الخام والصور إلى فيديوهات وتصاميم احترافية
+          جاهزة للنشر على فيس بوك، يوتيوب، إنستجرام، تيك توك، والإعلانات الممولة.
+        </p>
+        <div class="flex flex-wrap gap-3 items-center">
+          <!-- زر واتساب في قسم البطل -->
+          <a href="https://wa.me/201111687422" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-full border border-emerald-500/70 text-emerald-300 hover:bg-emerald-500/10 text-sm font-medium px-5 py-2.5 transition-colors">
+            <span>تواصل عبر الواتساب</span>
+            <svg class="w-4 h-4" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+              <path d="M16 3C9.373 3 4 8.373 4 15c0 2.275.623 4.395 1.71 6.233L4 29l7.01-1.84A11.9 11.9 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3m0 2.4c5.302 0 9.6 4.298 9.6 9.6 0 5.303-4.298 9.6-9.6 9.6-1.95 0-3.768-.588-5.326-1.7l-.38-.258-4.153 1.09 1.11-4.048-.248-.416A9.52 9.52 0 0 1 6.4 15c0-5.302 4.298-9.6 9.6-9.6m-3.017 4.5c-.184-.402-.378-.41-.554-.418-.144-.006-.308-.006-.473-.006s-.433.062-.66.309c-.227.247-.867.848-.867 2.069 0 1.22.888 2.4 1.012 2.566.124.165 1.713 2.738 4.204 3.727 2.079.82 2.5.657 2.95.617.45-.041 1.455-.595 1.66-1.169.206-.575.206-1.068.144-1.169-.062-.103-.227-.165-.473-.288-.247-.124-1.455-.718-1.68-.799-.227-.082-.392-.124-.554.124-.165.247-.637.799-.781.965-.144.165-.288.186-.535.062-.247-.124-1.044-.384-1.99-1.224-.736-.656-1.232-1.466-1.376-1.713-.144-.247-.016-.38.108-.504.111-.11.247-.288.371-.432.124-.144.165-.247.247-.412.082-.165.041-.309-.021-.432-.062-.124-.54-1.337-.76-1.829" />
+            </svg>
+          </a>
+        </div>
+        <div class="flex flex-wrap gap-6 pt-4 text-xs text-neutral-400">
+          <div>
+            <div class="text-neutral-200 font-semibold text-base">+500</div>
+            <div>فيديو منجَز</div>
+          </div>
+          <div>
+            <div class="text-neutral-200 font-semibold text-base">+30</div>
+            <div>براند وعميل</div>
+          </div>
+          <div>
+            <div class="text-neutral-200 font-semibold text-base">5+</div>
+            <div>سنوات خبرة</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="rounded-3xl border border-neutral-800 bg-gradient-to-br from-neutral-900/90 via-neutral-950/90 to-black/90 shadow-[0_0_60px_rgba(16,185,129,0.15)] p-4 sm:p-5 flex flex-col gap-4">
+          <div class="flex items-center justify-between gap-4">
+            <div>
+              <p class="text-xs text-neutral-400">آخر أعمالي</p>
+            </div>
+          </div>
+          <div class="relative grid grid-cols-3 gap-2 rounded-2xl border border-neutral-800 bg-neutral-900/70 p-2">
+            <div class="relative overflow-hidden rounded-xl aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/reel/DR758TOihWA/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/reel/DR75V2yCq5g/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/reel/DQyl8v9iujt/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="grid grid-cols-3 gap-2 rounded-2xl border border-neutral-800 bg-neutral-900/70 p-2">
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1G4yKLPtR2VOMiKguI_rxKSXHgVXobhby/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/10iaFJiiAmY4hzjdofRHfu99fAMAST2NW/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/10WhAO_lRHK6Fv4YlzXOwNqGsa8s0WCxa/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1LQneivnPZRlj-_4nh6rt5TVFg7zKZdXh/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1IhiE2yHjQW_THBIDAoWqSzlow74GrV9_/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1GP0ZLeVUfNjPd5exh2XcQi0qfU11AH3Y/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="grid grid-cols-3 gap-2 rounded-2xl border border-neutral-800 bg-neutral-900/70 p-2 mt-2">
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1Mj90wk4_CdXKQ6rLw6J8P0YFdnPG3-VG/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/16MMoYO4Y5rSCVFyL3Nca3owa0y1wU1wi/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1aLCIb8rQgEbduTiJ_befo99dZ3nghoWv/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1UazVA9iSCwgdn3l-iRr7hi4QeivGRHyt/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1sTnB37KKYTO65d5ViA1RjcRoTO4GMxuC/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1y4jjX0uASajmXBm_k_NaGz9ZrnRaQbpu/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1DTfLUV2VJ1K3yHrAUFoxVseDSSjAY7gT/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/117AkrYs3u_WVLz6vIol5-EncavrwyT8U/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/19Gkx1h7g9bvFL2rtlJG9x7fuT1PQ_xFp/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1gM2e8oj2h3G4OXIe0kmGRVTP71-HEyLf/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1TfUopAYrHxL2hpzqk42WKpCv4w5knJnW/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+            <div class="relative overflow-hidden rounded-xl aspect-square bg-black/80">
+              <iframe src="https://drive.google.com/file/d/1ZlRMkXcuWm6UxU8pKMrxKtRZJMkV2nRO/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الأعمال -->
+    <section id="portfolio" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-1">نماذج من الأعمال</h2>
+          <p class="text-sm text-neutral-400 max-w-xl">
+            مجموعة مختارة من أعمال المونتاج
+          </p>
+        </div>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- مشروع 1 -->
+        <article id="project-1" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="reel">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/p/DPWV2HnCg1D/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-1" data-title="ريل سوشيال ميديا - مشروع 1" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 2 -->
+        <article id="project-2" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="reel">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/p/DJZyhIgKdbp/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-2" data-title="ريل سوشيال ميديا - مشروع 2" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 3 -->
+        <article id="project-3" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="reel">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/p/DJmwTxpq_Z6/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-3" data-title="ريل سوشيال ميديا - مشروع 3" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 4 -->
+        <article id="project-4" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="reel">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/p/DJZsUQRKwkK/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-4" data-title="ريل سوشيال ميديا - مشروع 4" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 5 -->
+        <article id="project-5" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="reel">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/p/DJZsEp6KmyS/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-5" data-title="ريل سوشيال ميديا - مشروع 5" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 6 -->
+        <article id="project-6" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="reel">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-[9/16] bg-black">
+              <iframe src="https://www.instagram.com/p/DJZrqEWqHEi/embed" class="w-full h-full" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-6" data-title="ريل سوشيال ميديا - مشروع 6" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 7 -->
+        <article id="project-7" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="video">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-black">
+              <iframe src="https://drive.google.com/file/d/1IeuVbut59Ot0t-6W1uzOmsqIPJmxqWr0/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-7" data-title="فيديو جوجل درايف - مشروع 7" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 8 -->
+        <article id="project-8" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="video">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-black">
+              <iframe src="https://drive.google.com/file/d/1ArfyXSZOIGMTf3Fl-D0Mg3U_Wq9DQiha/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-8" data-title="فيديو جوجل درايف - مشروع 8" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 9 -->
+        <article id="project-9" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="video">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-black">
+              <iframe src="https://drive.google.com/file/d/1O5K-dWw8Dk1iCz5VnhDpoporRwpUn2G8/preview" class="w-full h-full" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-9" data-title="فيديو جوجل درايف - مشروع 9" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 10 -->
+        <article id="project-10" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="youtube">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-black">
+              <iframe src="https://www.youtube.com/embed/wpwqCLddKzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-10" data-title="فيديو يوتيوب - مشروع 10" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 11 -->
+        <article id="project-11" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="youtube">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-black">
+              <iframe src="https://www.youtube.com/embed/INkpWwGQVqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-11" data-title="فيديو يوتيوب - مشروع 11" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- مشروع 12 -->
+        <article id="project-12" class="project-card group rounded-2xl border border-neutral-800/80 bg-neutral-950/60 hover:border-emerald-500/60 hover:bg-neutral-900/70 transition-colors flex flex-col" data-category="youtube">
+          <div class="relative rounded-t-2xl overflow-hidden border-b border-neutral-800">
+            <div class="aspect-video bg-black">
+              <iframe src="https://www.youtube.com/embed/xmSGtoT_mpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>
+            </div>
+          </div>
+          <div class="flex-1 flex flex-col p-4 space-y-3">
+            <div class="flex items-center justify-start pt-1 mt-auto">
+              <button type="button" data-share-button data-id="project-12" data-title="فيديو يوتيوب - مشروع 12" class="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-white">
+                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 4.5L20.5 10L15 15.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.5 10H20.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5C4 4.94772 4.44772 4.5 5 4.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                  <path d="M4 18.5C4 19.0523 4.44772 19.5 5 19.5H10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+                </svg>
+                <span>مشاركة العمل</span>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section id="services" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-1">الخدمات التي أقدّمها</h2>
+          <p class="text-sm text-neutral-400 max-w-xl">
+            خدمات تصميم ومونتاج متكاملة تناسب أنواع المحتوى المختلفة، من تصاميم سوشيال و فيديوهات قصيرة سريعة إلى حلقات يوتيوب وبرامج كاملة.
+          </p>
+        </div>
+      </div>
+      <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 text-sm">
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/70 p-4 flex flex-col gap-2">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="font-semibold text-neutral-50">مونتاج سوشيال ميديا</h3>
+            <span class="text-[11px] text-emerald-300 bg-emerald-500/10 border border-emerald-500/30 rounded-full px-2 py-0.5">الأكثر طلبًا</span>
+          </div>
+          <p class="text-xs text-neutral-400 mb-2">ريلز، تيك توك، شورتس، محتوى تعليمي أو ترفيهي سريع.</p>
+          <ul class="text-xs text-neutral-300 space-y-1.5 list-disc pr-4">
+            <li>قص وتقطيع ذكي حسب الإيقاع</li>
+            <li>إضافة ترجمة (Subtitles) متحركة</li>
+            <li>إضافة مؤثرات صوتية وTransitions</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/70 p-4 flex flex-col gap-2">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="font-semibold text-neutral-50">مونتاج يوتيوب وبرامج</h3>
+          </div>
+          <p class="text-xs text-neutral-400 mb-2">فيديوهات يوتيوب، Vlogs، حلقات بودكاست وبرامج حوارية.</p>
+          <ul class="text-xs text-neutral-300 space-y-1.5 list-disc pr-4">
+            <li>تنظيم القصة وتوزيع الفقرات</li>
+            <li>تصحيح ألوان أساسي وتحسين الصوت</li>
+            <li>تصميم انترو/اوترو وLower Thirds</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/70 p-4 flex flex-col gap-2">
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="font-semibold text-neutral-50">تصميم سوشيال ميديا</h3>
+          </div>
+          <p class="text-xs text-neutral-400 mb-2">تصاميم جذابة تناسب هويّة البراند ونوع المحتوى.</p>
+          <ul class="text-xs text-neutral-300 space-y-1.5 list-disc pr-4">
+            <li>تصاميم جذابة تناسب محتواك وهويتك.</li>
+            <li>أقدّم لك المحتوى والأفكار لتصاميم تزيد التفاعل والمبيعات.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم عنّي -->
+    <section id="about" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-1">عنّي</h2>
+          <p class="text-sm text-neutral-400 max-w-xl">
+            جرافيك ديزاينر و محرر فيديو عملت لأكثر من 5 سنوات مع العديد من الشركات في قطاعات مختلفة. يمكنكم الاطّلاع على بعض هذه الأعمال من خلال الزر التالي.
+          </p>
+          <a href="https://drive.google.com/drive/folders/19IOL5jspgsPImomRC1mdSiCic5oX4vcw?usp=drive_link" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-2 rounded-full border border-emerald-500/70 text-emerald-300 hover:bg-emerald-500/10 text-xs font-medium px-4 py-1.5 transition-colors">
+            <span>Drive portfolio</span>
+          </a>
+        </div>
+      </div>
+      <div class="grid gap-6 md:grid-cols-[1.4fr,1fr] items-start text-sm">
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-4 space-y-4">
+          <p class="text-neutral-200 text-sm font-semibold">
+            برامج أستخدمها
+          </p>
+          <p class="text-neutral-300 text-xs">
+            مجموعة من أهم الأدوات والبرامج التي أستخدمها بشكل يومي في شغلي في التصميم والمونتاج.
+          </p>
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
+            <div class="flex items-center gap-2 rounded-xl bg-neutral-900 border border-neutral-800 px-2.5 py-1.5">
+              <span class="flex h-7 w-7 items-center justify-center rounded-lg bg-[#2A2A5A] text-[11px] font-semibold text-purple-200">Pr</span>
+              <span class="text-neutral-200">Premiere Pro</span>
+            </div>
+            <div class="flex items-center gap-2 rounded-xl bg-neutral-900 border border-neutral-800 px-2.5 py-1.5">
+              <span class="flex h-7 w-7 items-center justify-center rounded-lg bg-[#2B225F] text-[11px] font-semibold text-indigo-200">Ae</span>
+              <span class="text-neutral-200">After Effects</span>
+            </div>
+            <div class="flex items-center gap-2 rounded-xl bg-neutral-900 border border-neutral-800 px-2.5 py-1.5">
+              <span class="flex h-7 w-7 items-center justify-center rounded-lg bg-[#0C2C4A] text-[11px] font-semibold text-sky-200">Ps</span>
+              <span class="text-neutral-200">Photoshop</span>
+            </div>
+            <div class="flex items-center gap-2 rounded-xl bg-neutral-900 border border-neutral-800 px-2.5 py-1.5">
+              <span class="flex h-7 w-7 items-center justify-center rounded-lg bg-[#3A2605] text-[11px] font-semibold text-amber-200">Ai</span>
+              <span class="text-neutral-200">Illustrator</span>
+            </div>
+            <div class="flex items-center gap-2 rounded-xl bg-neutral-900 border border-neutral-800 px-2.5 py-1.5">
+              <span class="flex h-7 w-7 items-center justify-center rounded-lg bg-emerald-700 text-[10px] font-semibold text-emerald-50">GPT</span>
+              <span class="text-neutral-200">ChatGPT</span>
+            </div>
+            <div class="flex items-center gap-2 rounded-xl bg-neutral-900 border border-neutral-800 px-2.5 py-1.5">
+              <span class="flex h-7 w-7 items-center justify-center rounded-lg bg-[#1A73E8] text-[11px] font-semibold text-white">G</span>
+              <span class="text-neutral-200">Google Studio</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid gap-3 text-xs">
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-3.5 flex items-center justify-between">
+            <div>
+              <p class="text-neutral-300 mb-0.5">مدة التسليم المعتادة</p>
+              <p class="text-[11px] text-neutral-400">حسب طبيعة التصميم أو الفيديو ومدته ونوعه.</p>
+            </div>
+            <p class="text-base font-semibold text-emerald-300">من 24 إلى 72 ساعة</p>
+          </div>
+          <div class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-3.5 flex flex-col gap-1.5">
+            <p class="text-neutral-300">أعمل مع:</p>
+            <div class="flex flex-wrap gap-2 text-[11px] text-neutral-200">
+              <span class="px-2 py-1 rounded-full bg-neutral-900 border border-neutral-700/70">صُنّاع محتوى</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-900 border border-neutral-700/70">براندات ومنتجات</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-900 border border-neutral-700/70">متاجر إلكترونية</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-900 border border-neutral-700/70">بودكاست وبرامج</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold mb-1">تواصل وحجز</h2>
+          <p class="text-sm text-neutral-400 max-w-xl">
+            أرسل تفاصيل التصميم أو الفيديو الذي تحتاجه على الواتساب أو اكتب لي رسالة سريعة، وسأعود إليك بأقرب وقت مع تفاصيل السعر ومدة التسليم.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-[1.2fr,1fr] items-start">
+        <!-- نموذج بسيط (استعراض فقط، بدون باك إند) -->
+        <form id="contact-form" class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-4 space-y-3 text-sm">
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label for="name" class="block text-xs text-neutral-300 mb-1">الاسم</label>
+              <input id="name" name="name" type="text" class="w-full rounded-xl bg-neutral-900 border border-neutral-700/80 px-3 py-2 text-xs outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/70" placeholder="مثال: أحمد محمد" />
+            </div>
+            <div>
+              <label for="platform" class="block text-xs text-neutral-300 mb-1">المنصّة المستهدفة</label>
+              <select id="platform" name="platform" class="w-full rounded-xl bg-neutral-900 border border-neutral-700/80 px-3 py-2 text-xs outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/70">
+                <option value="">اختر المنصّة</option>
+                <option value="reels">Reels / TikTok / Shorts</option>
+                <option value="youtube">YouTube</option>
+                <option value="ads">إعلانات ممولة</option>
+                <option value="other">أخرى</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="details" class="block text-xs text-neutral-300 mb-1">تفاصيل العمل المطلوب</label>
+            <textarea id="details" name="details" rows="4" class="w-full rounded-xl bg-neutral-900 border border-neutral-700/80 px-3 py-2 text-xs outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/70" placeholder="اكتب نوع الفيديو، المدة التقريبية، وأي ملاحظات مهمة..."></textarea>
+          </div>
+          <p class="text-[11px] text-neutral-400">
+            عند الإرسال سيتم تجهيز رسالة جاهزة لتكمل الكلام عبر الواتساب مباشرة.
+          </p>
+          <button type="submit" class="inline-flex items-center gap-2 rounded-full bg-emerald-500 hover:bg-emerald-400 text-black text-xs font-semibold px-5 py-2 transition-colors">
+            <span>إرسال التفاصيل على الواتساب</span>
+            <svg class="w-3.5 h-3.5" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+              <path d="M16 3C9.373 3 4 8.373 4 15c0 2.275.623 4.395 1.71 6.233L4 29l7.01-1.84A11.9 11.9 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3m0 2.4c5.302 0 9.6 4.298 9.6 9.6 0 5.303-4.298 9.6-9.6 9.6-1.95 0-3.768-.588-5.326-1.7l-.38-.258-4.153 1.09 1.11-4.048-.248-.416A9.52 9.52 0 0 1 6.4 15c0-5.302 4.298-9.6 9.6-9.6m-3.017 4.5c-.184-.402-.378-.41-.554-.418-.144-.006-.308-.006-.473-.006s-.433.062-.66.309c-.227.247-.867.848-.867 2.069 0 1.22.888 2.4 1.012 2.566.124.165 1.713 2.738 4.204 3.727 2.079.82 2.5.657 2.95.617.45-.041 1.455-.595 1.66-1.169.206-.575.206-1.068.144-1.169-.062-.103-.227-.165-.473-.288-.247-.124-1.455-.718-1.68-.799-.227-.082-.392-.124-.554.124-.165.247-.637.799-.781.965-.144.165-.288.186-.535.062-.247-.124-1.044-.384-1.99-1.224-.736-.656-1.232-1.466-1.376-1.713-.144-.247-.016-.38.108-.504.111-.11.247-.288.371-.432.124-.144.165-.247.247-.412.082-.165.041-.309-.021-.432-.062-.124-.54-1.337-.76-1.829" />
+            </svg>
+          </button>
+        </form>
+
+        <div class="rounded-2xl border border-neutral-800 bg-neutral-950/80 p-4 space-y-3 text-sm">
+          <p class="text-neutral-200 text-sm mb-1">معلومات هامة:</p>
+          <ul class="text-xs text-neutral-300 space-y-2">
+            <li>• التواصل الأسرع يكون عبر الواتساب.</li>
+            <li>• يمكن إرسال عينات من الشغل المطلوب قبل الاتفاق على التكلفة.</li>
+            <li>• لا أنفّذ أي عمل إلا بعد دفع جزء من التكلفة المتفق عليها مسبقًا.</li>
+            <li>• إمكانية التعديل على الفيديو بعد التسليم (حسب الباقة المتفق عليها).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- أيقونة واتساب عائمة - غيّر الرابط لو بدّلت رقمك -->
+  <a href="https://wa.me/201111687422" target="_blank" rel="noopener" class="fixed bottom-4 right-4 z-40">
+    <div class="relative group">
+      <span class="absolute -top-9 right-0 rounded-full bg-black/85 text-[10px] px-2 py-1 text-neutral-100 border border-neutral-700/80 opacity-0 group-hover:opacity-100 transition-opacity">تواصل سريع</span>
+      <div class="w-12 h-12 rounded-full bg-emerald-500 shadow-lg shadow-emerald-500/40 flex items-center justify-center text-white hover:bg-emerald-400 transition-colors border border-emerald-300/80">
+        <svg class="w-6 h-6" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor">
+          <path d="M16 3C9.373 3 4 8.373 4 15c0 2.275.623 4.395 1.71 6.233L4 29l7.01-1.84A11.9 11.9 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3m0 2.4c5.302 0 9.6 4.298 9.6 9.6 0 5.303-4.298 9.6-9.6 9.6-1.95 0-3.768-.588-5.326-1.7l-.38-.258-4.153 1.09 1.11-4.048-.248-.416A9.52 9.52 0 0 1 6.4 15c0-5.302 4.298-9.6 9.6-9.6m-3.017 4.5c-.184-.402-.378-.41-.554-.418-.144-.006-.308-.006-.473-.006s-.433.062-.66.309c-.227.247-.867.848-.867 2.069 0 1.22.888 2.4 1.012 2.566.124.165 1.713 2.738 4.204 3.727 2.079.82 2.5.657 2.95.617.45-.041 1.455-.595 1.66-1.169.206-.575.206-1.068.144-1.169-.062-.103-.227-.165-.473-.288-.247-.124-1.455-.718-1.68-.799-.227-.082-.392-.124-.554.124-.165.247-.637.799-.781.965-.144.165-.288.186-.535.062-.247-.124-1.044-.384-1.99-1.224-.736-.656-1.232-1.466-1.376-1.713-.144-.247-.016-.38.108-.504.111-.11.247-.288.371-.432.124-.144.165-.247.247-.412.082-.165.041-.309-.021-.432-.062-.124-.54-1.337-.76-1.829" />
+        </svg>
+      </div>
+    </div>
+  </a>
+
+  <!-- Toast / تنبيه صغير -->
+  <div id="toast" class="fixed bottom-6 left-4 z-40 hidden">
+    <div class="flex items-center gap-2 rounded-full bg-black/85 border border-neutral-700 px-3 py-1.5 text-[11px] text-neutral-100 shadow-lg">
+      <span id="toast-icon" class="text-emerald-400">✔</span>
+      <span id="toast-message">تم نسخ رابط العمل</span>
+    </div>
+  </div>
+
+  <!-- تذييل -->
+  <footer class="border-t border-neutral-800/80 bg-black/70 backdrop-blur-sm text-[11px] text-neutral-500">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row gap-2 items-center justify-between">
+      <p>© <span id="year"></span> جميع الحقوق محفوظة. Mohamed Sayed (Video Editor)</p>
+    </div>
+  </footer>
+
+  <script>
+    // إعداد السنة الحالية في التذييل
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // زر مشاركة العمل
+    const shareButtons = document.querySelectorAll('[data-share-button]');
+    const toast = document.getElementById('toast');
+    const toastMessage = document.getElementById('toast-message');
+    const toastIcon = document.getElementById('toast-icon');
+
+    function showToast(message, type = 'success') {
+      toastMessage.textContent = message;
+      if (type === 'success') {
+        toastIcon.textContent = '✔';
+        toastIcon.className = 'text-emerald-400';
+      } else {
+        toastIcon.textContent = '!';
+        toastIcon.className = 'text-amber-400';
+      }
+      toast.classList.remove('hidden');
+      clearTimeout(window.__toastTimeout);
+      window.__toastTimeout = setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 2600);
+    }
+
+    function getProjectShareUrl(id) {
+      const url = new URL(window.location.href);
+      url.hash = id;
+      return url.toString();
+    }
+
+    async function copyToClipboard(text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        return true;
+      } catch (e) {
+        return false;
+      } finally {
+        document.body.removeChild(textarea);
+      }
+    }
+
+    shareButtons.forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const id = btn.getAttribute('data-id');
+        const title = btn.getAttribute('data-title') || 'عمل مونتاج فيديو';
+        const url = getProjectShareUrl(id);
+
+        const text = `شاهد هذا العمل: ${title}`;
+
+        if (navigator.share) {
+          try {
+            await navigator.share({ title, text, url });
+          } catch (err) {
+            // المستخدم ربما أغلق المشاركة، لا حاجة لرسالة خطأ
+          }
+        } else {
+          const ok = await copyToClipboard(url);
+          if (ok) {
+            showToast('تم نسخ رابط العمل، يمكنك الآن لصقه وإرساله.', 'success');
+          } else {
+            showToast('لم يتمكن المتصفح من نسخ الرابط تلقائيًا. جرّب نسخ الرابط من شريط العنوان.', 'error');
+          }
+        }
+      });
+    });
+
+    // زر مشاركة الموقع كاملًا
+    const shareSiteBtn = document.getElementById('share-site-btn');
+
+    if (shareSiteBtn) {
+      shareSiteBtn.addEventListener('click', async () => {
+        const url = window.location.href;
+        const title = 'بورتفوليو مونتير فيديو - محمد سيد';
+        const text = 'شاهد بورتفوليو المونتاج الخاص بي وتواصل معي عبر الواتساب.';
+
+        if (navigator.share) {
+          try {
+            await navigator.share({ title, text, url });
+          } catch (err) {
+            // المستخدم ربما أغلق نافذة المشاركة
+          }
+        } else {
+          const ok = await copyToClipboard(url);
+          if (ok) {
+            showToast('تم نسخ رابط الموقع، يمكنك الآن لصقه ومشاركته.', 'success');
+          } else {
+            showToast('لم يتمكن المتصفح من نسخ الرابط تلقائيًا. انسخ الرابط من شريط العنوان.', 'error');
+          }
+        }
+      });
+    }
+
+    // فلترة الأعمال حسب النوع
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        // تحديث مظهر الأزرار
+        filterButtons.forEach((btn) => {
+          btn.classList.remove('bg-neutral-900', 'text-neutral-50', 'border-neutral-700');
+          btn.classList.add('border-neutral-800', 'text-neutral-300');
+        });
+        button.classList.remove('border-neutral-800', 'text-neutral-300');
+        button.classList.add('bg-neutral-900', 'text-neutral-50', 'border-neutral-700');
+
+        // إظهار/إخفاء البطاقات
+        projectCards.forEach((card) => {
+          const category = card.getAttribute('data-category');
+          const shouldShow = filter === 'all' || filter === category;
+          card.classList.toggle('hidden', !shouldShow);
+        });
+      });
+    });
+
+    // إرسال نموذج التواصل وتحويله لرسالة واتساب
+    const contactForm = document.getElementById('contact-form');
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const name = contactForm.name.value.trim();
+        const platform = contactForm.platform.value;
+        const details = contactForm.details.value.trim();
+
+        const platformLabelMap = {
+          reels: 'Reels / TikTok / Shorts',
+          youtube: 'YouTube',
+          ads: 'إعلانات ممولة',
+          other: 'منصات أخرى',
+        };
+
+        const platformLabel = platform ? platformLabelMap[platform] || platform : 'لم يتم التحديد';
+
+        let message = 'مرحبًا، أريد طلب خدمة مونتاج فيديو.';
+        if (name) {
+          message += `\n\nالاسم: ${name}`;
+        }
+        message += `\nالمنصّة المستهدفة: ${platformLabel}`;
+        if (details) {
+          message += `\n\nتفاصيل الفيديو:\n${details}`;
+        }
+
+        const encoded = encodeURIComponent(message);
+        const whatsappNumber = '201111687422'; // عدّل الرقم هنا إن أحببت
+        const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encoded}`;
+        window.open(whatsappUrl, '_blank');
+      });
+    }
+  </script>
+</body>
+</html>
